@@ -1,0 +1,5 @@
+.container-border {
+    border: 1px solid;
+    border-color: Black;
+    border-radius: 8px;
+}
