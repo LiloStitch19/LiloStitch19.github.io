@@ -29,3 +29,53 @@
 .jumbotron {
     height: 560px;
 }
+
+.dot1 {
+    height: 25px;
+    width: 25px;
+    background-color: #e6be88;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2 {
+    height: 25px;
+    width: 25px;
+    background-color: #d2691e;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot3 {
+    height: 25px;
+    width: 25px;
+    background-color: #8b4513;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.hr1 {
+    height: 1px;
+    background-color: #e6be88;
+}
+
+
+.hr2 {
+    height: 1px;
+    background-color: #d2691e;
+}
+
+.hr3 {
+    height: 1px;
+    background-color: #8b4513;
+}
+
+.btn-info {
+    background-color: #921302;
+    border-color: #921302;
+}
+
+.btn.btn-info.active {
+    background-color: #921302;
+    border-color: #921302;
+}
