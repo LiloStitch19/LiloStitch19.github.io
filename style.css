@@ -2,8 +2,30 @@
     border: 1px solid;
     border-color: Black;
     border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 .bg-beige {
     background-color: beige;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+.navbar-nav .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 0px;
+    line-height: 50px;
+    float: none;
+}
+
+.container {
+    max-width: 1680px;
+    width: 100%;
+}
+
+.jumbotron {
+    height: 560px;
 }
