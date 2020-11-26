@@ -14,52 +14,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
 
 </head>
 
 <body>
     <!-- Section: Navbar -->
     <section>
-        <!-- Image and text -->
-        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-beige">
-            <a class="navbar-brand" href="#" style="vertical-align:bottom; text-align:center">
-                <img src="images/logo.png" width="100" height="100" class="d-inline-block align-top" alt=""
-                    loading="lazy">
-                <img src="images/siruppppp.png" width="189" height="77" class="d-inline-block align-top" alt=""
-                    loading="lazy">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Essen
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Ahornsirup</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav> -->
-
-        <nav class="navbar navbar-expand-md navbar-light bg-beige">
+        <nav class="navbar navbar-expand-md navbar-light bg-custom-2">
             <div class="d-flex w-50 order-0">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" width="100" height="100" class="d-inline-block align-top" alt=""
@@ -74,10 +38,10 @@
             <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home |<span class="sr-only">Home</span></a>
+                        <a class="nav-link" href="#">Home<span class="sr-only">Home</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Rezepte |</a>
+                        <a class="nav-link" href="#">Rezepte</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pflegeprodukte</a>
@@ -98,7 +62,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="img-fluid" src="images/Ahornsirup.png" alt="First slide">
+                        <img class="img-fluid brightness" src="images/Ahornsirup.png" alt="First slide">
                         <div class="carousel-caption d-none d-md-block">
                             <h1>Ahornsirup aus Deutschland</h1>
                             <p>Entdecke unsere leckeren Rezepte mit Ahornsirup</p>
@@ -106,7 +70,8 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/Pancakes.png" alt="Second slide">
+                        <img class="d-block w-100 brightness" src="images/Pancakes.png" alt="Second slide"
+                            style="opacity:1">
                         <div class="carousel-caption d-none d-md-block">
                             <h1>Rezept des Monats</h1>
                             <p>Probiere unsere leckeren Pancakes!</p>
@@ -114,7 +79,8 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="images/creme2.png" alt="Third slide">
+                        <img class="d-block w-100 brightness" src="images/creme2.png" alt="Third slide"
+                            style="opacity:1">
                         <div class="carousel-caption d-none d-md-block">
                             <h1>Selbsthergestellte Ahorncreme</h1>
                             <p>Kauf dir ein Produkt und überzeuge dich selbst!</p>
@@ -137,7 +103,7 @@
             <h1>Drei Sorten Ahornsirup</h1>
             <div class="row" style="margin-top:100px">
                 <div class="col-sm">
-                    <h4>Golden</h4>
+                    <h2>Golden</h2>
                     <span class="dot1"></span>
                     <p><i>Exquisiter Geschmack</i></p>
                     <img width="100px" height="60px" src="images/zitat-golden.png">
@@ -150,7 +116,7 @@
                     <img width="100px" height="60px" src="images/zitat-golden-mirrored.png">
                 </div>
                 <div class="col-sm">
-                    <h4>Smokey</h4>
+                    <h2>Smokey</h2>
                     <span class="dot2"></span>
                     <p><i>Robuster Geschmack</i></p>
                     <img width="100px" height="60px" src="images/zitat-smokey.png">
@@ -162,7 +128,7 @@
                     <img width="100px" height="60px" src="images/zitat-smokey-mirrored.png">
                 </div>
                 <div class="col-sm">
-                    <h4>Very Smokey</h4>
+                    <h2>Very Smokey</h2>
                     <span class="dot3"></span>
                     <p><i>Kräftiger Geschmack</i></p>
                     <img width="100px" height="60px" src="images/zitat-darksmokey.png">
@@ -174,8 +140,119 @@
                     <img width="100px" height="60px" src="images/zitat-darksmokey.mirrored.png">
                 </div>
             </div>
+            <div style="margin-top:75px" class="container">
+                <hr width="100%" style="background-color:lightgray">
+                <div class="row" style="margin-top:75px">
+                    <div class="col-sm">
+                        <img src="images/Ahornflasche2.png" width="400" height="400">
+                    </div>
+                    <div class="col-sm">
+                        <h2><font face = "monospace">Wissenswertes zu Ahornsirup</font></h2>
+                        <br>
+                        <hr width="15%" style="background-color:lightgray">
+                        <br>
+                        <p style="text-align:justify">Der Ahornsirup aus Deutschland ist ein zu 100% reines und
+                            naturbelassenes Produkt ohne künstliche Farb-, Aroma- und Konservierungsstoffe. Wussten Sie
+                            jedoch, dass der Polyphenole und mehrere essentielle Nährstoffe, wie Eisen und Zink enthält?
+                            <br><br>
+                            Ahornsirup ist heutzutage zu beliebt, sodass er sogar dem weißen Haushaltszucker Konkurrenz
+                            macht. Wusstest du das Ahornsirup ein drittel weniger Kalorien (kcal/100g) enthält als
+                            herkömmlicher Haushaltszucker?
+                            <br><br>
+                            Ahornsirup enthält Mineralstoffe, die einen wertvollen Beitrag zu einer ausgewogenen
+                            Ernährung liefert. So deckt 100g Ahornsirup den täglichen Bedarf an 1,2 mg Eisen und zu 102%
+                            an Riboflavim.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr width="100%" style="background-color:lightgray; margin-top:75px;">
+        </div>
+        <div class="container" style="text-align: center; margin-top: 100px;">
+            <button type="button" class="btn btn-light"><i class="fas fa-truck pr-xl-2 pr-md-0 pr-2"></i>Lieferung</button>
+            <button type="button" class="btn btn-light"><i class="fas fa-money-bill-wave pr-xl-2 pr-md-0 pr-2"></i>Zahlung</button>
+            <button type="button" class="btn btn-light"><i class="fas fa-undo-alt pr-xl-2 pr-md-0 pr-2"></i>Rückgaben</button>
+            <button type="button" class="btn btn-light"><i class="fas fa-comment-dots pr-xl-2 pr-md-0 pr-2"></i>Kundenservice</button>
         </div>
     </section>
+    <!-- Footer -->
+    <footer style="margin-top:200px" class="page-footer font-small indigo bg-custom-2">
+
+        <!-- Footer Links -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase">
+                        <a href="#!" style="color: black;">About us</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase">
+                        <a href="#!" style="color: black;">Products</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase">
+                        <a href="#!" style="color: black;">Awards</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase">
+                        <a href="#!"style="color: black;">Help</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase">
+                        <a href="#!" style="color: black;">Contact</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+            <hr class="rgba-white-light" style="margin: 0 15%;">
+
+            <!-- Grid row-->
+            <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+                <!-- Grid column -->
+                <div class="col-md-8 col-12 mt-5">
+                    <p style="line-height: 1.7rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium doloremque laudantium, totam rem
+                        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                        explicabo.
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                        consequuntur.</p>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+            <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://maikwille.github.io/">Naki.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 </body>
 
 </html>

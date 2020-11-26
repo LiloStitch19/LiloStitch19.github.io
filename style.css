@@ -7,7 +7,7 @@
 }
 
 .bg-beige {
-    background-color: beige;
+    background-color: #cdc0b0;
 }
 
 .navbar-brand {
@@ -75,7 +75,31 @@
     border-color: #921302;
 }
 
-.btn.btn-info.active {
-    background-color: #921302;
-    border-color: #921302;
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info {
+    background-color: #921302 !important;
+    border-color: #921302 !important;
+}
+
+.btn-light {
+    width: 160px;
+    height: 150px;
+    margin: 15px;
+}
+
+.brightness {
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+}
+
+.bg-custom-2 {
+    background-image: linear-gradient(15deg, #fffaf0 0%, #cdc0b0 100%);
+}
+
+
+a,h2 {
+    font-family: monospace;
+}
+
+a {
+    font-size: 150%;
 }
